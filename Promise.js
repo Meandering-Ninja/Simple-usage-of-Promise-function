@@ -1,36 +1,3 @@
-// function getData(dataId, getNextData){
-//  return new Promise((resolve, reject)=>{
-//     setTimeout(()=>{
-//         console.log("Data", dataId);
-//         reject("Successful")
-//         if (getNextData){
-//             getNextData();
-//         }
-//     },4000)
-// })
-// }
-
-// getData(1,()=>{
-//     getData(2,()=>{
-//         getData(3,()=>{
-//             getData(4);
-//         })
-//     });
-// });
-// function getPromise (){
-// return new Promise((resolve,reject) => {
-//     console.log("We Are Inside Promise");
-//     //resolve("Success");
-//     reject("Failed");
-// })}
-
-// let task = getPromise();
-// task.then(()=>{
-//     console.log("Promise Fulfilled")
-// });
-// task.catch(()=>{
-//     console.log("Promise Rejected");
-// })
 function Async1 (){
     return new Promise((resolve,reject) => {
         setTimeout(()=>{
